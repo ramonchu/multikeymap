@@ -6,7 +6,7 @@ A simple java multi key map: map.get( key_1, key_2, ..., key_n).setValue(new Poj
 Usage
 =====
 
-    	MultiKeyMap<Person> map = new HashedMultiMap<>();
+  	MultiKeyMap<Person> map = new HashedMultiMap<>();
   	
   	Person person1 = new Person("Ramón", "Arnau");
 	Person person2 = new Person("Aina", "Bagur");
