@@ -13,12 +13,10 @@ public class HashedMultiKey<T> implements MultiKeyEntry<T> {
 		this.keys = keys;
 	}
 
-	@Override
 	public T getValue() {
 		return value;
 	}
 
-	@Override
 	public void setValue(T t) {
 		this.value = t;
 	}

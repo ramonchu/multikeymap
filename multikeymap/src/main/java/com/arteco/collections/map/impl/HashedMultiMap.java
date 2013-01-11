@@ -11,7 +11,6 @@ public class HashedMultiMap<T> implements MultiKeyMap<T> {
 
 	private Map<Object, Object> root = new ConcurrentHashMap<Object, Object>();
 
-	@Override
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public MultiKeyEntry<T> get(Serializable... keys) {
 		if (keys == null)
